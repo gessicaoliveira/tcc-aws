@@ -171,6 +171,12 @@ flex-direction: column;
 justify-content: space-between;
 }
 
+.card-alice {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
 .card-list {
 width: auto;
 padding: 5px;
@@ -309,6 +315,13 @@ align-items: center;
     .card {
         margin: 1rem 0rem;
     }
+    
+.card-alice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+  }
     
     .cards {
         display: flex;
